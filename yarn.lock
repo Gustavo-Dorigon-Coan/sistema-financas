@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.17.8":
+  version "7.18.9"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
+  integrity sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@miragejs/pretender-node-polyfill@^0.1.0":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@miragejs/pretender-node-polyfill/-/pretender-node-polyfill-0.1.2.tgz#d26b6b7483fb70cd62189d05c95d2f67153e43f2"
@@ -268,6 +275,13 @@ object-assign@^4.1.1:
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
+polished@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.2.2.tgz#2529bb7c3198945373c52e34618c8fe7b1aa84d1"
+  integrity sha512-Sz2Lkdxz6F2Pgnpi9U5Ng/WdWAUZxmHrNPoVlm3aAemxoy2Qy7LGjQg4uf8qKelDAUW94F4np3iH2YPf2qefcQ==
+  dependencies:
+    "@babel/runtime" "^7.17.8"
+
 pretender@^3.4.7:
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/pretender/-/pretender-3.4.7.tgz#34a2ae2d1fc9db440a990d50e6c0f5481d8755fc"
@@ -304,6 +318,11 @@ react-modal@^3.15.1:
     prop-types "^15.7.2"
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
+
+regenerator-runtime@^0.13.4:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
 
 route-recognizer@^0.3.3:
   version "0.3.4"
